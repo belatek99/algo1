@@ -1,0 +1,17 @@
+ALGORITHM checkpoin
+VAR
+    c:char
+    v,w,nb_char:interger
+BEGIN
+    while(c<>".")do
+    read(c)
+    nb_char:=nb_char+1
+    if(c=" ")
+    w:=w+1
+    end if
+if(c in [a,e,i,o,y,u,A,E,Y,U,I])
+   v:=v+1
+   end if
+   end while
+   write(v,w,nb_char)
+END
